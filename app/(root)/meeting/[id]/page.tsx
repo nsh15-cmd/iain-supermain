@@ -11,7 +11,6 @@ import { useGetCallById } from "@/hooks/useGetCallById";
 import Alert from "@/components/Alert";
 import MeetingSetup from "@/components/MeetingSetup";
 import MeetingRoom from "@/components/MeetingRoom";
-import { Metadata } from "next";
 
 const MeetingPage = () => {
   const { id } = useParams();

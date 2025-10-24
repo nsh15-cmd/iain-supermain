@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 "use client";
 
 import { useState } from "react";
@@ -11,7 +10,6 @@ import { useUser } from "@clerk/nextjs";
 import Loader from "./Loader";
 import { Textarea } from "./ui/textarea";
 import ReactDatePicker from "react-datepicker";
-import { Calendar } from "lucide-react";
 import { useToast } from "./ui/use-toast";
 import { Input } from "./ui/input";
 import ResumeCard from "./ResumeCard";
@@ -107,7 +105,7 @@ const MeetingTypeList = () => {
         className="bg-black-1"
         handleClick={() => router.push("/recordings")}
       />
-            <ResumeCard
+      <ResumeCard
         img="/icons/admin.svg"
         title="Admin Panel"
         description="Track applicants and manage recruitment."
